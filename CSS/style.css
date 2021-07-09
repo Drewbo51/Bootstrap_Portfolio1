@@ -87,6 +87,7 @@
 
 .work {
     text-align: center;
+    font-family: cursive;
 }
 
 .cardIMG1, .carIMG2 .cardIMG3 {
@@ -103,4 +104,54 @@
 
 #card2 {
     text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    
+    "firstSET secondSET thirdSET"
+
+    ;
+}
+
+.firstSET {
+    grid-area: firstSET;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.secondSET {
+    grid-area: secondSET;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.thirdSET {
+    grid-area: thirdSET;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.workBODY {
+    background-color: lightcoral;
+}
+
+.CONTACT {
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.contact-item {
+    width: 25%;
+    border: 5px solid black;
 }
